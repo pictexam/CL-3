@@ -16,7 +16,7 @@ class Philosopher(Process):
 	lock1=None
 	lock2=None
 
-	def __init__(self, name. lock1, lock2):
+	def __init__(self, name, lock1, lock2):
 		super(Philosopher, self).__init__()
 		self.name=name
 		self.food=read_food(name)
